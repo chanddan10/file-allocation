@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>File Allocation Simulator</title>
+  <link rel="stylesheet" href="assets/css/global.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="frontpage">
+      <h1 class="maintitle">File Allocation Simulator</h1>
+
+      <p>By Vopaaz (Li YiFan).</p>
+      <p>For course project of Computer System Architecture, Prof. Mao, Tsinghua SEM.</p>
+      <br>
+      
+      <!-- All of the Node.js APIs are available in this renderer process. -->
+      <button class="mainbutton" id="new-contiguous-simulation">Run Contiguous Simulation</button><br>
+      <button class="mainbutton" id="new-linked-simulation">Run Linked Simulation</button><br>
+      <button class="mainbutton" id="new-indexed-simulation">Run Indexed Simulation</button><br>
+      <button class="mainbutton" id="documentation">Documentation</button>
+    </div>
+  </div>
+  <script type="text/javascript">
+    // You can also require other files to run in this process
+    require('./renderer/create-window.js')
+  </script>
+</body>
+
+</html>
