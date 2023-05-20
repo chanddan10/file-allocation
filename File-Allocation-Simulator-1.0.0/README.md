@@ -143,7 +143,7 @@ The instruction file will be created at `test/assets/random-tests`, named with c
 
 ![Main Page](doc-img/main.png)
 
-On main page, you can click the first three buttons to open a simulation window, or click the `Documentation` button, which will direct you to the [github page of this README](https://github.com/Vopaaz/File-Allocation-Simulator/blob/master/README.md).
+On main page, you can click the first three buttons to open a simulation window, or click the `Documentation` button, which will direct you to the [github page of this README](https://github.com/chanddan10/file-allocation.git)).
 
 ### Simulation Page
 
